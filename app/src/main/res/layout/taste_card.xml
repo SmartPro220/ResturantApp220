@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardElevation="5dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+       <RelativeLayout
+           android:layout_width="wrap_content"
+           android:layout_height="150dp">
+           <ImageView
+               android:layout_width="match_parent"
+               android:layout_height="150dp"
+               android:src="@drawable/dummy"
+               android:scaleType="fitXY"
+               />
+
+           <ImageView
+               android:id="@+id/editebtn"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:src="@drawable/ic_baseline_edit_24"
+               android:layout_toLeftOf="@id/deletebtn"
+               android:layout_alignParentBottom="true"
+               android:layout_margin="10dp"
+
+               />
+
+           <ImageView
+               android:id="@+id/deletebtn"
+               android:layout_width="25dp"
+               android:layout_height="25dp"
+               android:layout_alignParentBottom="true"
+               android:src="@drawable/ic_baseline_delete_24"
+               android:layout_alignParentRight="true"
+               android:layout_margin="10dp"
+               />
+       </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="name"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/priiii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="actual price"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tdesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:text="desc"
+            android:layout_margin="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:id="@+id/tquant"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quatity"
+                android:textColor="@color/orange"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tdprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="dis price"
+                android:textColor="@color/orange"
+                android:textSize="16sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

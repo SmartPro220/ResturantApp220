@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="MissingDefaultResource">
+
+
+
+    <item
+        android:id="@+id/addTaste"
+        android:title="Add Youy Taste"
+        android:icon="@drawable/taste"
+        />
+
+    <item
+        android:id="@+id/viewTaste"
+        android:title="View Taste"
+        android:icon="@drawable/taste"
+        />
+
+    <item
+        android:id="@+id/penOrder"
+        android:title="Pending Order"
+        android:icon="@drawable/taste"
+        />
+
+
+    <item
+        android:id="@+id/compOrder"
+        android:title="Complte Order"
+        android:icon="@drawable/taste"
+        />
+
+    <item
+        android:id="@+id/signoutbtn"
+        android:title="Sign out"
+        android:icon="@drawable/taste"
+        />
+</menu>
